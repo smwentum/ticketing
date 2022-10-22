@@ -19,6 +19,7 @@ app.use(
   })
 );
 
+console.log("adding routers");
 app.use(currentUserRouter);
 app.use(signinRouter);
 app.use(signoutRouter);
